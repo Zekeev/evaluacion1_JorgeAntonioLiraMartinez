@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('IsraelView', function () {
+    return view('IsraelView');
+});
+
 Route::get('inicio', function () {
     return view('inicio');
 });
