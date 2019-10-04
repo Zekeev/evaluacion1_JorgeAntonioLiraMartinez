@@ -48,3 +48,7 @@ Route::get('/JorgeAnotinioliraMartinez', function () {
     return view('JorgeAnotinioliraMartinez');
 });
 
+Route::get('Paulina', function () {
+    return view('Paulina');
+});
+
